@@ -1,0 +1,86 @@
+.buukle-navbar-head{
+    margin-left: 40% !important;
+}
+.buukle-navbar-title{
+    background-color: #e8e8e8bf;
+}
+.jumpto input {
+    height: 31px;
+    width: 50px;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    display: inline-block;
+}
+a {
+    cursor:pointer;
+}
+.current-articleCat-txt{
+    margin-left: 10px;
+    margin-bottom: 17px;
+    float: left;
+    color: #9e4b18c9;
+}
+.order-active{
+    background-color : #80909c9e;
+}
+.main-nav-active{
+    background-color : #8e8e8e42;
+}
+.article-nav-li-active{
+    background-color : #cfcfd075;
+}
+.praise-active-i{
+    color: #15c71c;
+}
+.pl-delete{
+    margin-right: 3%;
+}
+.write-timeline-topic{
+    resize: none;
+    width: 325px;
+    height: 38px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.write-timeline-content{
+    resize: none;
+    width: 325px;
+    height: 66px;
+    margin-top: 11px;
+    margin-bottom: 20px;
+    padding: 10px;
+    background: #fff;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+    border-radius: 4px;
+}
+.buukle-upload-review{
+    margin-top: 10px !important;
+    font-size: 14px !important;
+    margin-left: 13px !important;
+    width: 366px !important;
+    min-height: 180px !important;
+}
+.buukle-timeline-upDelete{
+    margin-left: 35px;
+    float: left;
+    margin-top: -62px;
+    background-color: white;
+}
+.buukle-timeline-image-preview{
+    margin-left: 6px;
+    margin-top: 6px;
+    width: 100px;
+    float: left;
+}
+.buukle-timeline-image{
+    width: 100px;
+    float: left;
+    height: 113px;
+}
