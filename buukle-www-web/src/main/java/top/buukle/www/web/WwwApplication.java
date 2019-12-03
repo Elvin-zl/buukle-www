@@ -6,7 +6,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ApplicationContext;
 
-@MapperScan({"top.buukle.www.dao","top.buukle.util.mvc"})
+@MapperScan({"top.buukle.www.dao","top.buukle.common.mvc"})
 @SpringBootApplication(scanBasePackages={"top.buukle.www.*"})
 @EnableFeignClients(basePackages = {"top.buukle.*"})
 public class WwwApplication {
