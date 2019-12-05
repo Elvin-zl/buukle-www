@@ -5,10 +5,12 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 import org.springframework.context.ApplicationContext;
+import org.springframework.transaction.annotation.EnableTransactionManagement;
 
 @MapperScan({"top.buukle.www.dao","top.buukle.common.mvc"})
 @SpringBootApplication(scanBasePackages={"top.buukle.www.*"})
 @EnableFeignClients(basePackages = {"top.buukle.*"})
+@EnableTransactionManagement
 public class WwwApplication {
     private static volatile boolean RUNNING = true;
     public static void main(String[] args) {
